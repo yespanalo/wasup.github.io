@@ -111,4 +111,48 @@ body {
           justify-content: center;
   margin-bottom: 2em;
 }
+
+.bottom-navbar {
+  background-color: #F5F5F7;
+  padding: 1em 13em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom-navbar .copyright {
+  color: #9D8D8E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+}
+
+.bottom-navbar .copyright a {
+  text-decoration: none;
+  color: #494949;
+}
+
+.bottom-navbar .copyright a:hover {
+  color: #9D8D8E;
+}
+
+.bottom-navbar .copyright span {
+  margin: 0px 5px;
+}
+
+.bottom-navbar .copyright .privacy {
+  margin-left: 3em;
+}
+
+.philippines {
+  color: #9D8D8E;
+  font-size: 10px;
+}
 /*# sourceMappingURL=main.css.map */

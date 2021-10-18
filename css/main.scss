@@ -87,4 +87,37 @@ body{
     margin-bottom: 2em;
 }
 
+.bottom-navbar{
+    background-color: #F5F5F7;
+    padding: 1em 13em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .copyright{
+        color: #9D8D8E;
+        display: flex;
+        font-size: 10px;
+
+        a{
+            text-decoration: none;
+            
+            color: rgb(73, 73, 73);
+        }
+        a:hover{
+            color: #9D8D8E;
+        }
+        span{
+            margin: 0px 5px;
+        }
+        .privacy{
+            margin-left: 3em;
+        }
+    }
+
+}
+
+.philippines{ color: #9D8D8E;
+    font-size: 10px;
+}
 
